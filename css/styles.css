@@ -639,7 +639,7 @@ justify-content: center;
    justify-content: center;
    padding: 0;
    cursor: pointer;
-   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
    }
 .button-cross {
    fill: #2E2F42;
@@ -648,7 +648,7 @@ justify-content: center;
 
 .button-cross:hover,
 .button-cross:focus{
-   fill: #ffffff;
+   fill: #FFFFFF;
 }
 
 .modal-title{
@@ -679,6 +679,7 @@ justify-content: center;
          height: 40px;
          border: 1px solid rgba(46, 47, 66, 0.4);
          outline: transparent;
+         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -728,13 +729,14 @@ justify-content: center;
          line-height: 1.17;
          letter-spacing: 0.04em;
          color: rgba(46, 47, 66, 0.4);
-         border: 1px solid rgba(46, 47, 66, 0.4);
+        
          padding: 8px 16px;
          outline: transparent;
          transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
       border-radius: 4px;
       border: 1px solid #4d5ae5;
       background-color: transparent;
+      border: 1px solid rgba(46, 47, 66, 0.4);
       
       
       resize: none;
@@ -752,7 +754,7 @@ justify-content: center;
    line-height: 1.17;
    letter-spacing: 0.04em;
    color: #8E8F99;
-   display: flex;
+   display: inline-flex;
    align-items: center;
    
    
