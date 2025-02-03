@@ -242,7 +242,8 @@ li>p{
    padding: 120px 0;
 }
 
-.title-strategy{
+.title-strategy,
+.visually-hidden{
    position: absolute;
    width: 1px;
    height: 1px;
@@ -534,7 +535,7 @@ justify-content: center;
       
       font-size: 12px;
       font-weight: 400;
-      line-height: 2px;
+      line-height: 2;
       letter-spacing: 0.04em;
       text-align: left;
       background-color: transparent;
@@ -799,6 +800,11 @@ justify-content: center;
 
 .modal-btn{
    display: block;
+   position: static;
+   
+   left: 0;
+   transform: translateX(50%);
+   
    min-width: 169px;
    height: 56px;
       font-size: 16px;
