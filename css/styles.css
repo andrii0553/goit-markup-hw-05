@@ -656,7 +656,7 @@ justify-content: center;
 }
 
 
-.modal-close-btn:focus + .button-cross{
+.modal-close-btn:focus .button-cross{
    fill: #FFFFFF;
 }
 
@@ -685,10 +685,10 @@ justify-content: center;
    background-color: transparent;
    padding-left: 38px;
    color: #C4C4C4;
-         height: 40px;
-         border: 1px solid rgba(46, 47, 66, 0.4);
-         outline: transparent;
-         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   height: 40px;
+   border: 1px solid rgba(46, 47, 66, 0.4);
+   outline: transparent;
+   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
